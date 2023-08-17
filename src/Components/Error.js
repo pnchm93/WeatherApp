@@ -1,0 +1,9 @@
+import { useState } from "react";
+function Error({message}){
+    return(
+        <div>
+        <h2>{message}</h2>
+        </div>
+    )
+}
+export default Error;
